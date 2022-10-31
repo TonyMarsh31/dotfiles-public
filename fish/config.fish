@@ -29,6 +29,7 @@ alias ll "ls -l"
 alias lla "ll -A"
 alias g git
 alias c code
+alias gc "git commit -m"
 command -qv nvim && alias vim nvim
 
 set -gx EDITOR nvim
