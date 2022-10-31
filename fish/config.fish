@@ -27,13 +27,17 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
+
 alias g git
-alias c code
 alias gc "git commit -m"
+alias ga "git add ."
+
+alias t tmux
+alias c code
+
 command -qv nvim && alias vim nvim
 
 set -gx EDITOR nvim
-
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx PATH ~/.local/bin $PATH
