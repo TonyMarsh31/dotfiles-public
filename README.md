@@ -1,4 +1,4 @@
-# dotfiles-macbook
+# dotfiles-public-macbook
 my config files
 
 大部分都是抄[Takuya](https://github.com/craftzdog/dotfiles-public)的配置文件  
