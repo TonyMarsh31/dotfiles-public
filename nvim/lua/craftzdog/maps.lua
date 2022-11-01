@@ -1,5 +1,5 @@
--- Set LeaderKey as Space (for using vim-easymotion)
-vim.g.mapleader = ' '
+-- Set LeaderKey as comma (for using vim-easymotion)
+vim.g.mapleader = ','
 
 local keymap = vim.keymap
 
