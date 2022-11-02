@@ -91,4 +91,4 @@ set --export PATH $BUN_INSTALL/bin $PATH
 set -x PATH "/usr/local/mysql/bin" "$PATH"
 
 # startship
-starship init fish | source
+# starship init fish | source
