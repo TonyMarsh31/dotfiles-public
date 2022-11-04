@@ -35,6 +35,9 @@ alias ga "git add ."
 alias t tmux
 alias c code
 
+# use trash-cli instand of rm cause it's a dangerous command
+alias rm trash
+
 command -qv nvim && alias vim nvim
 
 set -gx EDITOR nvim
