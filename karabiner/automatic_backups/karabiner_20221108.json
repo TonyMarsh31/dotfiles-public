@@ -234,7 +234,7 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "left_command"
+                                    "apple_vendor_keyboard_key_code": "function"
                                 }
                             ]
                         }
