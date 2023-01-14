@@ -35,6 +35,8 @@ alias ga "git add ."
 alias t tmux
 alias c code
 
+alias cat bat
+alias top btop
 # use trash-cli instand of rm cause it's a dangerous command
 alias rm trash
 
@@ -95,3 +97,8 @@ set -x PATH "/usr/local/mysql/bin" "$PATH"
 
 # startship
 # starship init fish | source
+
+# pnpm
+set -gx PNPM_HOME "/Users/tonymarsh/Library/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
