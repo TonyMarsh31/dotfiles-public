@@ -2,19 +2,6 @@ set fish_greeting ""
 
 set -gx TERM xterm-256color
 
-# proxy
-function proxy
-  set -xg ALL_PROXY http://localhost:7890
-end
-
-function noproxy
-  set -e ALL_PROXY
-end
-# 第一次开启Iterm2时执行的命令，当做问候语的同时开启ALL_PROXY
-function activate-proxy 
-  set -xg ALL_PROXY http://localhost:7890
-end
-
 # theme
 set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 1
