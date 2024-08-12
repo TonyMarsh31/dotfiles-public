@@ -1,4 +1,5 @@
 set fish_greeting ""
+my_fish_greeting
 
 set -gx TERM xterm-256color
 
