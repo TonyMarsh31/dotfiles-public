@@ -1,5 +1,4 @@
-i use Keychron Q10 Max keyboard, which does not support via(yet in 2025)    
-config it by [Keychron lanucher](https://launcher.keychron.com/#/keymap) which recommonded by keychron , or using raw QMK
+i use Keychron Q10 Max keyboard, config it by [Keychron lanucher](https://launcher.keychron.com/#/keymap) 
 
 nothing too special, just homerow mod and some thumbs key changes  
 
